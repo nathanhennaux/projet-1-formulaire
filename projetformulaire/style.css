@@ -1,0 +1,90 @@
+   @font-face {
+        font-family: "Bellota";
+        src: url('font/Bellota-Regular.otf');
+    }
+    /*Contact sectiom*/
+.content-header{
+    font-family: "Bellota";    
+    font-size: 45px;
+  }
+  
+  .section-content{
+    text-align: center; 
+  
+  }
+  #contact{
+      
+    font-family: "Bellota";
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    background: #303030; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #303030 , #15c5bd); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #303030, #15c5bd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color : #fff;    
+  }
+  .contact-section{
+    padding-top: 40px;
+  }
+  .contact-section .col-md-6{
+    width: 50%;
+  }
+  
+  .-line{
+    border-right: 1px solid #B29999;
+  }
+  
+  .-group{
+    margin-top: 10px;
+  }
+  label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+  }
+  .-control{
+    font-size: 1.3em;
+    color: #080808;
+  }
+  textarea.-control {
+      height: 135px;
+     /* margin-top: px;*/
+  }
+  
+  .submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+  
+  }
+
+  .button{
+      background-color: #303030;
+  }
+
+  input[type=text]:not(.browser-default):hover{
+    border-bottom: 1px solid #fff;
+    color:#303030!important;
+}
+
+input[type=email]:not(.browser-default):hover{
+    color:#303030!important;
+}
+
+  input[type=email]:not(.browser-default):hover{
+    color:#303030!important;
+}
+  
+
+    /*body {
+        font-family: "Bellota";
+        background-image: linear-gradient(to bottom,  #303030, #15c5bd, #FFF);
+        color: #FFF;
+        width:100vw;
+        height:100vh;
+
+    }*/
+    
